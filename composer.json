@@ -1,0 +1,24 @@
+{
+    "name": "libeo/lbo-unbolt",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Libeo",
+            "email": "support@libeo.com"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "b13/bolt": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libeo\\Unbolt\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "lbo_unbolt"
+        }
+    }
+}
