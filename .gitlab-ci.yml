@@ -4,6 +4,9 @@ include:
 
 deploy_tag:
   stage: deploy
+  image: 
+    name: curlimages/curl
+    entrypoint: [""]
   tags:
     - docker
   rules:
