@@ -1,6 +1,7 @@
 {
     "name": "libeo/lbo-unbolt",
     "type": "typo3-cms-extension",
+    "license": "AGPL-3.0",
     "authors": [
         {
             "name": "Libeo",
