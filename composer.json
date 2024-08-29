@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^11.5",
+        "typo3/cms-core": "^11.5 || ^12.4",
         "b13/bolt": "^2.0"
     },
     "autoload": {
